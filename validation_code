@@ -1,0 +1,203 @@
+extension PhoneValidator on String {
+  bool isValidPhone() {
+    return RegExp(
+            r'^[0-9]{10}$')
+        .hasMatch(this);
+  }
+}
+extension NameValidator on String {
+  bool isValidName() {
+    return RegExp(
+            r'^[a-zA-Z ]*$')
+        .hasMatch(this);
+  }
+}
+extension AddressValidator on String {
+  bool isValidAddress() {
+    return RegExp(
+            r'^[a-zA-Z0-9 ]*$')
+        .hasMatch(this);
+  }
+}
+extension PincodeValidator on String {
+  bool isValidPincode() {
+    return RegExp(
+            r'^[0-9]{6}$')
+        .hasMatch(this);
+  }
+}
+extension CityValidator on String {
+  bool isValidCity() {
+    return RegExp(
+            r'^[a-zA-Z ]*$')
+        .hasMatch(this);
+  }
+}
+extension StateValidator on String {
+  bool isValidState() {
+    return RegExp(
+            r'^[a-zA-Z ]*$')
+        .hasMatch(this);
+  }
+}
+extension CountryValidator on String {
+  bool isValidCountry() {
+    return RegExp(
+            r'^[a-zA-Z ]*$')
+        .hasMatch(this);
+  }
+}
+extension GSTValidator on String {
+  bool isValidGST() {
+    return RegExp(
+            r'^[0-9]{15}$')
+        .hasMatch(this);
+  }
+}
+extension PANValidator on String {
+  bool isValidPAN() {
+    return RegExp(
+            r'^[A-Z]{5}[0-9]{4}[A-Z]{1}$')
+        .hasMatch(this);
+  }
+}
+extension BankNameValidator on String {
+  bool isValidBankName() {
+    return RegExp(
+            r'^[a-zA-Z ]*$')
+        .hasMatch(this);
+  }
+}
+extension AccountNumberValidator on String {
+  bool isValidAccountNumber() {
+    return RegExp(
+            r'^[0-9]{9,18}$')
+        .hasMatch(this);
+  }
+}
+extension IFSCValidator on String {
+  bool isValidIFSC() {
+    return RegExp(
+            r'^[A-Z]{4}0[A-Z0-9]{6}$')
+        .hasMatch(this);
+  }
+}
+extension BranchValidator on String {
+  bool isValidBranch() {
+    return RegExp(
+            r'^[a-zA-Z ]*$')
+        .hasMatch(this);
+  }
+}
+extension AccountHolderNameValidator on String {
+  bool isValidAccountHolderName() {
+    return RegExp(
+            r'^[a-zA-Z ]*$')
+        .hasMatch(this);
+  }
+} 
+extension BusinessNameValidator on String {
+  bool isValidBusinessName() {
+    return RegExp(
+            r'^[a-zA-Z ]*$')
+        .hasMatch(this);
+  }
+}
+extension BusinessAddressValidator on String {
+  bool isValidBusinessAddress() {
+    return RegExp(
+            r'^[a-zA-Z0-9 ]*$')
+        .hasMatch(this);
+  }
+}
+extension BusinessPincodeValidator on String {
+  bool isValidBusinessPincode() {
+    return RegExp(
+            r'^[0-9]{6}$')
+        .hasMatch(this);
+  }
+}
+extension BusinessCityValidator on String {
+  bool isValidBusinessCity() {
+    return RegExp(
+            r'^[a-zA-Z ]*$')
+        .hasMatch(this);
+  }
+}
+extension BusinessStateValidator on String {
+  bool isValidBusinessState() {
+    return RegExp(
+            r'^[a-zA-Z ]*$')
+        .hasMatch(this);
+  }
+}
+extension BusinessCountryValidator on String {
+  bool isValidBusinessCountry() {
+    return RegExp(
+            r'^[a-zA-Z ]*$')
+        .hasMatch(this);
+  }
+}
+extension BusinessGSTValidator on String {
+  bool isValidBusinessGST() {
+    return RegExp(
+            r'^[0-9]{15}$')
+        .hasMatch(this);
+  }
+}
+extension BusinessPANValidator on String {
+  bool isValidBusinessPAN() {
+    return RegExp(
+            r'^[A-Z]{5}[0-9]{4}[A-Z]{1}$')
+        .hasMatch(this);
+  }
+}
+extension BusinessBankNameValidator on String {
+  bool isValidBusinessBankName() {
+    return RegExp(
+            r'^[a-zA-Z ]*$')
+        .hasMatch(this);
+  }
+}
+extension BusinessAccountNumberValidator on String {
+  bool isValidBusinessAccountNumber() {
+    return RegExp(
+            r'^[0-9]{9,18}$')
+        .hasMatch(this);
+  }
+}
+extension BusinessIFSCValidator on String {
+  bool isValidBusinessIFSC() {
+    return RegExp(
+            r'^[A-Z]{4}0[A-Z0-9]{6}$')
+        .hasMatch(this);
+  }
+}
+extension BusinessBranchValidator on String {
+  bool isValidBusinessBranch() {
+    return RegExp(
+            r'^[a-zA-Z ]*$')
+        .hasMatch(this);
+  }
+}
+extension BusinessAccountHolderNameValidator on String {
+  bool isValidBusinessAccountHolderName() {
+    return RegExp(
+            r'^[a-zA-Z ]*$')
+        .hasMatch(this);
+  }
+}
+extension BusinessPhoneValidator on String {
+  bool isValidBusinessPhone() {
+    return RegExp(
+            r'^[0-9]{10}$')
+        .hasMatch(this);
+  }
+}
+extension BusinessEmailValidator on String {
+  bool isValidBusinessEmail() {
+    return RegExp(
+            r'^[a-zA-Z0-9+_.-]+@[a-zA-Z0-9.-]+$')
+        .hasMatch(this);
+  }
+}
